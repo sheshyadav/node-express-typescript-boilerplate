@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "esnext",                                  /* Modern JS support */
+    "module": "NodeNext",                                /* Required for modern Node.js features */
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],                                   /* Standard library features */
+    
+    /* Build & Paths */
+    "outDir": "./dist",                                  /* Where compiled JS goes */
+    "rootDir": "./src",                                  /* Where your source TS is */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "sourceMap": true,                                   /* Crucial for debugging production errors */
+    "removeComments": false,                             /* Reduces bundle size */
+    
+    /* Strictness - Don't compromise here */
+    "strict": true,                                      /* Enables all strict type-checking options */
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,                              /* Keeps code clean */
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Compatibility */
+    "esModuleInterop": true,                             /* Fixes common CJS/ESM import issues */
+    "forceConsistentCasingInFileNames": true,            /* Avoids bugs on Linux/Windows mix */
+    "skipLibCheck": true,                                 /* Speeds up builds by ignoring library types */
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src/**/*"],                               /* Only compile what's in src */
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]    /* Ignore everything else */
+}
