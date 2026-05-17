@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# node-express-typescript-boilerplate
-A scalable and production-ready backend boilerplate built using TypeScript, Express.js, Prisma ORM, and MySQL. This project follows a clean architecture pattern with controllers, services, repositories, providers, middlewares, validators, and utilities separated properly for better scalability and maintainability.
-=======
 # Node Express TypeScript Boilerplate
 
 A scalable and production-ready backend boilerplate built using TypeScript, Express.js, Prisma ORM, and MySQL/MariaDB.
@@ -317,4 +313,5 @@ Developed by Shesh Yadav
 # License
 
 This project is licensed under the ISC License.
->>>>>>> 0aeb1c3 (setup the project)
+
+> > > > > > > 0aeb1c3 (setup the project)
